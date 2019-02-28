@@ -1,6 +1,10 @@
 ======================
-Cookiecutter-Oakensoul
+cookiecutter-oakensoul
 ======================
+My Cookiecutter_ template for spinning up language-agnostic semi-random projects. Contains (or will contain) all of the
+various files and settings that I like to have regardless of what I'm working on.
+
+My plan is to create a series of these and then add them into my dotfiles scripts using the Cookiecutter python package.
 
 Getting Started
 ---------------
@@ -10,8 +14,44 @@ Getting Started
 
 Features
 --------
+Generates
 
-* TODO
+- License file
+- Authors file
+- Readme file
+- .gitignore
+- .editorconfig
+
+GitHub Templates
+
+- Issue templates
+- Pull request template
+- Contributing documentation
+- Code of Conduct documentation
+
+Development
+-----------
+Makefile
+
+* make bake - Bakes a copy of the cookiecutter into a .pantry folder for visual testing
+* make clean - Cleans up the temporary .pantry folder
+
+
+Usage
+-----
+
+CLI Usage:
+    .. code-block:: bash
+
+        $ cookiecutter gh:oakensoul/cookiecutter-oakensoul
+
+Python Usage:
+    .. code-block:: python
+
+        from cookiecutter.main import cookiecutter
+
+        # Create project from the cookiecutter-oakensoul.git repo template
+        cookiecutter('https://github.com/oakensoul/cookiecutter-oakensoul.git')
 
 Thanks & Credits
 ----------------
