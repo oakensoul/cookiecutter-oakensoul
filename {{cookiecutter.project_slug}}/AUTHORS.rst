@@ -5,7 +5,7 @@ Credits
 Development Lead
 ----------------
 
-* {{ cookiecutter.full_name }} <`@{{ cookiecutter.author_twitter }}`_>
+* {{ cookiecutter.full_name }} (`@{{ cookiecutter.github_username }}`_)
 
 Contributors
 ------------
@@ -13,4 +13,4 @@ Contributors
 None yet. Why not be the first?
 
 
-.. _`@{{ cookiecutter.author_twitter }}`: https://twitter.com/{{ cookiecutter.author_twitter }}
+.. _`@{{ cookiecutter.github_username }}`: https://github.com.com/{{ cookiecutter.github_username }}
