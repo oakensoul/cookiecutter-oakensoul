@@ -1,4 +1,5 @@
-BAKE_OPTIONS=--no-input -o .pantry
+PANTRY=.pantry
+BAKE_OPTIONS=--no-input -o $(PANTRY)
 
 help:
 	@echo "bake 	generate project using defaults"
@@ -8,4 +9,4 @@ bake:
 	cookiecutter $(BAKE_OPTIONS) . --overwrite-if-exists
 
 clean:
-	rm -fr .pantry
+	rm -fr $(PANTRY)
