@@ -1,6 +1,7 @@
 # Customized gitignore content
 .idea/
 .aws/
+.pantry/
 
 # MacOS
 .DS_Store*
