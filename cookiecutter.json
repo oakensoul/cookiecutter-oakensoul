@@ -4,6 +4,7 @@
   "project_name": "Oakensoul Boilerplate",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
   "project_short_description": "My Boilerplate to create empty projects that i'm not sure what i'll do with them.",
+  "behavior_complaints_contact": "",
   "create_author_file": "y",
   "open_source_license": ["MIT license", "BSD license", "ISC license", "Apache Software License 2.0", "GNU General Public License v3", "Not open source"]
 }
