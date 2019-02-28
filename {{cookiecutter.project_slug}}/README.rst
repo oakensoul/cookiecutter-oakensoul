@@ -17,7 +17,7 @@ Features
 Credits
 -------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+This package was created with Cookiecutter_ and the `oakensoul/cookiecutter-oakensoul`_ project template.
 
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`oakensoul/cookiecutter-oakensoul`: https://github.com/oakensoul/cookiecutter-oakensoul

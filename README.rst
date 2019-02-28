@@ -13,11 +13,12 @@ Features
 
 * TODO
 
-Credits
--------
+Thanks & Credits
+----------------
 
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+Thanks, and credit to `@audreyr`_ for creating the Cookiecutter_ command-line utility, which this project uses.
 
+.. _`@audreyr`: https://github.com.com/audreyr
 .. _Cookiecutter: https://github.com/audreyr/cookiecutter
 .. _`oakensoul/cookiecutter-oakensoul`: https://github.com/oakensoul/cookiecutter-oakensoul
 .. _`GitHub Repo`: https://github.com/oakensoul/cookiecutter-oakensoul
